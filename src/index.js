@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import { store } from './app/store';
 import { Provider } from 'react-redux';
+// Import css files
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
